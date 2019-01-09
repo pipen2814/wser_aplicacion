@@ -1,0 +1,1 @@
+var baseURL = "http://wser.vanesasolis.es/api/";var navigation = localStorage.getItem('navigation');if(!navigation || navigation == undefined){	navigation = [];	localStorage.setItem("navigation", JSON.stringify(navigation));}var firstNav = true;
